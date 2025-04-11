@@ -2,9 +2,9 @@
 ## Contributors of this groupwork are :
 |Name|Email|GitHub Link|
 | ------- | ------- | ------- |
-|Peter Kuol Amol|kuolamol77@gmail.com|https://github.com/Quol04| 
-|Justus Odiwuor|justusodiwuor2019@gmail.com|https://github.com/justusodi|
-|Elizabeth Wamalwa|elizwamalwa@gmail.com|https://github.com/elizwamalwa|
+|Peter Kuol Amol|kuolamol77@gmail.com|[Peter Kuol](https://github.com/Quol04)| 
+|Justus Odiwuor|justusodiwuor2019@gmail.com|[Justus](https://github.com/justusodi)|
+|Elizabeth Wamalwa|elizwamalwa@gmail.com|[Elizabeth](https://github.com/elizwamalwa)|
 
 ---
 ## Tools and Technologies
