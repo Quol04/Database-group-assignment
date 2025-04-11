@@ -8,8 +8,8 @@
 
 ---
 ## Tools and Technologies
-MySQL - For building and managing the database
-Draw.io - For visualizing the database schema and relationships
+**MySQL** - For building and managing the database
+**Draw.io** - For visualizing the database schema and relationships
 
 ---
 ## Step-by-Step Instructions
