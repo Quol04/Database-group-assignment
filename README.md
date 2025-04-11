@@ -24,11 +24,11 @@
 ---
 ## Tables to Be Created
 #### Here are the key tables that you'll design and implement for the bookstore database:
-**book**: A list of all books available in the store.
+**1. book**: A list of all books available in the store.
 
-**book_author**: A table to manage the many-to-many relationship between books and authors.
+**2. book_author**: A table to manage the many-to-many relationship between books and authors.
 
-**author**: A list of all authors.
+**3. author**: A list of all authors.
 
 **book_language**: A list of the possible languages of books.
 
