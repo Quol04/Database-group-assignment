@@ -3,7 +3,7 @@
 |Name|Email|GitHub Link|
 | ------- | ------- | ------- |
 |Peter Kuol Amol|kuolamol77@gmail.com|[Peter Kuol](https://github.com/Quol04)| 
-|Justus Odiwuor|justusodiwuor2019@gmail.com|[Justus](https://github.com/justusodi)|
+|Justus Odiwuor|justusodiwuor2019@gmail.com|[Justus](https://github.com/Enock2007)|
 |Elizabeth Wamalwa|elizwamalwa@gmail.com|[Elizabeth](https://github.com/elizwamalwa)|
 
 ---
@@ -56,6 +56,9 @@
 **15. order_status**: A list of possible statuses for an order (e.g., pending, shipped, delivered). 
 
 ---
-## ER Diagram
-![Database Schema](database2.png)
+## ER Diagram and screenshots
+![Database Schema](/images/ER-diagram.png)
 
+### Screenshots of user roles and privileges
+![Eliza ](/images/elizadb.png)
+![Justus ](/images/justusdb.png)
