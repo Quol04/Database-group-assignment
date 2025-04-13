@@ -4,7 +4,7 @@
 -- Write the SQL commands to create tables that match the data structure
 
 -- create a new database named BookStoreDB
-CREATE TABLE BookStoreDB;
+CREATE DATABASE BookStoreDB;
 
 -- 1. create author table
 
