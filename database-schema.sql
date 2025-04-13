@@ -123,11 +123,7 @@ FOREIGN KEY(country_id) REFERENCES country (country_id)
 );
 
 -- 11. cust_order table
--- order_id
--- customer_id
--- shipping_id
--- orderDate
--- orderStatus_id
+
 CREATE TABLE cust_order(
 order_id INT PRIMARY KEY AUTO_INCREMENT,
 customer_id INT,
@@ -140,9 +136,6 @@ FOREIGN KEY(orderStatus_id) REFERENCES order_status (orderStatus_id)
 );
 
 -- 12. order_line table
--- orderLine_id
--- book_id
--- order_id
 
 CREATE TABLE order_line(
 orderLine_id INT PRIMARY KEY AUTO_INCREMENT,
@@ -153,8 +146,6 @@ FOREIGN KEY(order_id) REFERENCES cust_order (order_id)
 );
 
 -- 13. shipping_method table
--- shipping_id
--- method
 
 CREATE TABLE shipping_method(
 shipping_id INT PRIMARY KEY AUTO_INCREMENT,
@@ -162,18 +153,14 @@ method VARCHAR(20)
 );
 
 -- 14. order_status table
--- orderStatus_id
--- orderStatus
+
 CREATE TABLE order_status(
 orderStatus_id INT PRIMARY KEY AUTO_INCREMENT,
 orderstatus VARCHAR(30)
 );
 
 -- 15. order_history table
--- history_id
--- orderHistory
--- order_id
--- orderStatus_id
+
 CREATE TABLE order_history(
 history_id INT PRIMARY KEY AUTO_INCREMENT,
 orderHistory VARCHAR(30),
