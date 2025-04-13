@@ -1,23 +1,21 @@
--- - Create a new database to store bookstore data.
--- - Determine the table schema and data types
--- - Write the SQL commands to create tables that match the data structure
+--GROUP Work Assignment :
+-- Create a new database to store bookstore data.
+-- Determine the table schema and data types
+-- Write the SQL commands to create tables that match the data structure
 
+-- create a new database named BookStoreDB
 CREATE TABLE BookStoreDB;
 
--- 1. author table
--- author_id
--- authorName
--- email
+-- 1. create author table
+
 CREATE TABLE author(
 author_id INT PRIMARY KEY AUTO_INCREMENT,
 authorName VARCHAR (50),
 email VARCHAR(50)
 );
 
--- 2. book_author table
--- bookAuthor_id
--- book_id
--- author_id
+-- 2. create book_author table
+
 CREATE TABLE book_author(
 bookAuthor_id int PRIMARY KEY AUTO_INCREMENT,
 book_id INT,
@@ -28,8 +26,7 @@ FOREIGN KEY(author_id) REFERENCES author (author_id)
 
 
 -- 3. book_language table
--- language_id
--- language
+
 CREATE TABLE book_language(
 language_id INT PRIMARY KEY AUTO_INCREMENT,
  language VARCHAR(20)
@@ -37,11 +34,7 @@ language_id INT PRIMARY KEY AUTO_INCREMENT,
 
 
 -- 4. book table
--- book_id
--- title
--- language_id
--- publisher_id
--- yearPublished
+
 CREATE TABLE book(
 book_id INT PRIMARY KEY AUTO_INCREMENT,
 title VARCHAR(50),
@@ -53,9 +46,7 @@ FOREIGN KEY(publisher_id) REFERENCES publisher (publisher_id)
 );
 
 -- 5. publisher table
--- publisher_id
--- publisherName
--- phoneNumber
+
 CREATE TABLE publisher(
 publisher_id INT PRIMARY KEY AUTO_INCREMENT,
 publisherName VARCHAR(50),
@@ -63,11 +54,7 @@ phoneNumber INT
 );
 
 -- 6. customer table
--- customer_id
--- customerName
--- email
--- age
--- phoneNumber
+
 CREATE TABLE customer(
 customer_id INT PRIMARY KEY AUTO_INCREMENT,
 customerName VARCHAR(50),
@@ -77,10 +64,7 @@ phoneNumber INT
 );
 
 -- 7. customer_address table
--- customerAddress_id
--- customer_id
--- address_id
--- addressStatus_id
+
  CREATE TABLE customer_address(
 customerAddress_id INT PRIMARY KEY AUTO_INCREMENT,
 customer_id INT,
@@ -92,27 +76,21 @@ FOREIGN KEY(addressStatus_id) REFERENCES address_status (addressStatus_id)
 );
 
 -- 8. address_status table
--- addressStatus_id
--- status
+
 CREATE TABLE address_status(
 addressStatus_id INT PRIMARY KEY AUTO_INCREMENT,
 status VARCHAR(50)
 );
 
 -- 9. country table
--- country_id
--- countryName
+
 CREATE TABLE country(
 country_id INT PRIMARY KEY AUTO_INCREMENT,
 countryName VARCHAR (20)
 );
 
 -- 10. address table
--- address_id
--- street
--- city
--- zipCode
--- country_id
+
 CREATE TABLE address(
 address_id INT PRIMARY KEY AUTO_INCREMENT,
 street VARCHAR(30),
