@@ -4,7 +4,7 @@
 | ------- | ------- | ------- |
 |Peter Kuol Amol|kuolamol77@gmail.com|[Peter Kuol](https://github.com/Quol04)| 
 |Justus Odiwuor|justusodiwuor2019@gmail.com|[Justus](https://github.com/Enock2007)|
-|Elizabeth Wamalwa|elizwamalwa@gmail.com|[Elizabeth](https://github.com/elizwamalwa)|
+|Elizabeth Wamalwa|elizwamalwa@gmail.com|[Elizabeth](https://github.com/Milkah250)|
 
 ---
 ## Tools and Technologies
